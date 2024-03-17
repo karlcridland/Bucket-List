@@ -16,6 +16,22 @@
 		6D6D65782BA6D8CD002D30C2 /* Bucket_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65772BA6D8CD002D30C2 /* Bucket_ListTests.swift */; };
 		6D6D65822BA6D8CD002D30C2 /* Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65812BA6D8CD002D30C2 /* Bucket_ListUITests.swift */; };
 		6D6D65842BA6D8CD002D30C2 /* Bucket_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65832BA6D8CD002D30C2 /* Bucket_ListUITestsLaunchTests.swift */; };
+		6D6D65912BA6DBF0002D30C2 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65902BA6DBF0002D30C2 /* Activity.swift */; };
+		6D6D65922BA6DBF1002D30C2 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65902BA6DBF0002D30C2 /* Activity.swift */; };
+		6D6D65952BA6DD3E002D30C2 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65942BA6DD3E002D30C2 /* ActivityViewModel.swift */; };
+		6D6D65962BA6DD3E002D30C2 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65942BA6DD3E002D30C2 /* ActivityViewModel.swift */; };
+		6D6D65992BA6E2F3002D30C2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65982BA6E2F2002D30C2 /* ActivityView.swift */; };
+		6D6D659A2BA6E2F3002D30C2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65982BA6E2F2002D30C2 /* ActivityView.swift */; };
+		6D6D659D2BA6E406002D30C2 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D659C2BA6E406002D30C2 /* CountryViewModel.swift */; };
+		6D6D659E2BA6E406002D30C2 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D659C2BA6E406002D30C2 /* CountryViewModel.swift */; };
+		6D6D65A02BA6E48A002D30C2 /* ContinentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D659F2BA6E48A002D30C2 /* ContinentViewModel.swift */; };
+		6D6D65A12BA6E48A002D30C2 /* ContinentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D659F2BA6E48A002D30C2 /* ContinentViewModel.swift */; };
+		6D6D65A32BA6E565002D30C2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A22BA6E565002D30C2 /* Country.swift */; };
+		6D6D65A42BA6E565002D30C2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A22BA6E565002D30C2 /* Country.swift */; };
+		6D6D65A62BA6E56D002D30C2 /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A52BA6E56D002D30C2 /* Continent.swift */; };
+		6D6D65A72BA6E56D002D30C2 /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A52BA6E56D002D30C2 /* Continent.swift */; };
+		6D6D65A92BA6E624002D30C2 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A82BA6E623002D30C2 /* CountryView.swift */; };
+		6D6D65AA2BA6E624002D30C2 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A82BA6E623002D30C2 /* CountryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,14 @@
 		6D6D657D2BA6D8CD002D30C2 /* Bucket ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6D65812BA6D8CD002D30C2 /* Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITests.swift; sourceTree = "<group>"; };
 		6D6D65832BA6D8CD002D30C2 /* Bucket_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D6D65902BA6DBF0002D30C2 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		6D6D65942BA6DD3E002D30C2 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		6D6D65982BA6E2F2002D30C2 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		6D6D659C2BA6E406002D30C2 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		6D6D659F2BA6E48A002D30C2 /* ContinentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentViewModel.swift; sourceTree = "<group>"; };
+		6D6D65A22BA6E565002D30C2 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		6D6D65A52BA6E56D002D30C2 /* Continent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
+		6D6D65A82BA6E623002D30C2 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +126,9 @@
 				6D6D65602BA6D8CA002D30C2 /* AppDelegate.swift */,
 				6D6D65622BA6D8CA002D30C2 /* SceneDelegate.swift */,
 				6D6D65642BA6D8CA002D30C2 /* ViewController.swift */,
+				6D6D65932BA6DD28002D30C2 /* View Models */,
+				6D6D65972BA6DD50002D30C2 /* Models */,
+				6D6D659B2BA6E2FA002D30C2 /* Views */,
 				6D6D65662BA6D8CA002D30C2 /* Main.storyboard */,
 				6D6D65692BA6D8CC002D30C2 /* Assets.xcassets */,
 				6D6D656B2BA6D8CC002D30C2 /* LaunchScreen.storyboard */,
@@ -125,6 +152,35 @@
 				6D6D65832BA6D8CD002D30C2 /* Bucket_ListUITestsLaunchTests.swift */,
 			);
 			path = "Bucket ListUITests";
+			sourceTree = "<group>";
+		};
+		6D6D65932BA6DD28002D30C2 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D6D65942BA6DD3E002D30C2 /* ActivityViewModel.swift */,
+				6D6D659C2BA6E406002D30C2 /* CountryViewModel.swift */,
+				6D6D659F2BA6E48A002D30C2 /* ContinentViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		6D6D65972BA6DD50002D30C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D6D65902BA6DBF0002D30C2 /* Activity.swift */,
+				6D6D65A22BA6E565002D30C2 /* Country.swift */,
+				6D6D65A52BA6E56D002D30C2 /* Continent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D6D659B2BA6E2FA002D30C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D6D65982BA6E2F2002D30C2 /* ActivityView.swift */,
+				6D6D65A82BA6E623002D30C2 /* CountryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6D659D2BA6E406002D30C2 /* CountryViewModel.swift in Sources */,
+				6D6D65A32BA6E565002D30C2 /* Country.swift in Sources */,
+				6D6D65A02BA6E48A002D30C2 /* ContinentViewModel.swift in Sources */,
+				6D6D65952BA6DD3E002D30C2 /* ActivityViewModel.swift in Sources */,
 				6D6D65652BA6D8CA002D30C2 /* ViewController.swift in Sources */,
 				6D6D65612BA6D8CA002D30C2 /* AppDelegate.swift in Sources */,
+				6D6D65A62BA6E56D002D30C2 /* Continent.swift in Sources */,
+				6D6D65912BA6DBF0002D30C2 /* Activity.swift in Sources */,
 				6D6D65632BA6D8CA002D30C2 /* SceneDelegate.swift in Sources */,
+				6D6D65992BA6E2F3002D30C2 /* ActivityView.swift in Sources */,
+				6D6D65A92BA6E624002D30C2 /* CountryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6D65A42BA6E565002D30C2 /* Country.swift in Sources */,
+				6D6D65922BA6DBF1002D30C2 /* Activity.swift in Sources */,
+				6D6D659A2BA6E2F3002D30C2 /* ActivityView.swift in Sources */,
+				6D6D65AA2BA6E624002D30C2 /* CountryView.swift in Sources */,
 				6D6D65782BA6D8CD002D30C2 /* Bucket_ListTests.swift in Sources */,
+				6D6D65A72BA6E56D002D30C2 /* Continent.swift in Sources */,
+				6D6D659E2BA6E406002D30C2 /* CountryViewModel.swift in Sources */,
+				6D6D65962BA6DD3E002D30C2 /* ActivityViewModel.swift in Sources */,
+				6D6D65A12BA6E48A002D30C2 /* ContinentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,8 +520,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +529,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "karlcridland.Bucket-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -476,8 +550,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +559,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "karlcridland.Bucket-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
