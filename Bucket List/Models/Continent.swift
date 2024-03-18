@@ -10,15 +10,14 @@ import Foundation
 class Continent: ContinentViewModel {
     
     var name: String
-    var countries: [String] = []
+    var countries: [Country] = []
     
     init(_ name: String) {
         self.name = name
-        self.getCountries()
     }
     
-    func getCountries() {
-        
+    func setCountries(_ countries: [Country]) {
+        self.countries = countries
     }
     
 }

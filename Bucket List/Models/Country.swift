@@ -10,10 +10,17 @@ import UIKit
 
 class Country: CountryViewModel {
     
+    var view: CountryView
+    
     var name: String
     
     init(_ name: String){
         self.name = name
+        self.view = CountryView(name)
+    }
+    
+    func imageName() -> String{
+        return self.name.lowercased().replacingOccurrences(of: " ", with: "")
     }
     
 }

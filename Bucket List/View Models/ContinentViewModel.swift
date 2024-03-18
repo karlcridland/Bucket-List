@@ -10,8 +10,8 @@ import Foundation
 protocol ContinentViewModel {
     
     var name: String { get }
-    var countries: [String] { get }
+    var countries: [Country] { get }
     
-    func getCountries()
+    func setCountries(_ countries: [Country])
     
 }

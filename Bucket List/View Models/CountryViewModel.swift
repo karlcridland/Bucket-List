@@ -11,5 +11,6 @@ import UIKit
 protocol CountryViewModel {
     
     var name: String { get }
+    var view: CountryView { get }
     
 }

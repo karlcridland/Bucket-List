@@ -32,6 +32,16 @@
 		6D6D65A72BA6E56D002D30C2 /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A52BA6E56D002D30C2 /* Continent.swift */; };
 		6D6D65A92BA6E624002D30C2 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A82BA6E623002D30C2 /* CountryView.swift */; };
 		6D6D65AA2BA6E624002D30C2 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D65A82BA6E623002D30C2 /* CountryView.swift */; };
+		6DB8C7BD2BA8710200E4A7DC /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB8C7BC2BA8710200E4A7DC /* World.swift */; };
+		6DB8C7BF2BA8711600E4A7DC /* WorldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB8C7BE2BA8711600E4A7DC /* WorldViewModel.swift */; };
+		6DB8C7C12BA8AFD900E4A7DC /* country_plot_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DB8C7C02BA8AFD900E4A7DC /* country_plot_data.json */; };
+		6DB8C7C22BA8AFDA00E4A7DC /* country_plot_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DB8C7C02BA8AFD900E4A7DC /* country_plot_data.json */; };
+		6DB8C7C52BA8B9B600E4A7DC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB8C7C42BA8B9B600E4A7DC /* String.swift */; };
+		6DB8C7C62BA8B9B600E4A7DC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB8C7C42BA8B9B600E4A7DC /* String.swift */; };
+		6DCF39972BA83A9A00DB2E7E /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF39962BA83A9A00DB2E7E /* MapViewModel.swift */; };
+		6DCF39992BA83B0F00DB2E7E /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF39982BA83B0F00DB2E7E /* Map.swift */; };
+		6DCF399B2BA83B5A00DB2E7E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF399A2BA83B5A00DB2E7E /* MapView.swift */; };
+		6DCF399D2BA83DC100DB2E7E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF399C2BA83DC100DB2E7E /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +83,14 @@
 		6D6D65A22BA6E565002D30C2 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		6D6D65A52BA6E56D002D30C2 /* Continent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
 		6D6D65A82BA6E623002D30C2 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		6DB8C7BC2BA8710200E4A7DC /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		6DB8C7BE2BA8711600E4A7DC /* WorldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewModel.swift; sourceTree = "<group>"; };
+		6DB8C7C02BA8AFD900E4A7DC /* country_plot_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = country_plot_data.json; sourceTree = "<group>"; };
+		6DB8C7C42BA8B9B600E4A7DC /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6DCF39962BA83A9A00DB2E7E /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		6DCF39982BA83B0F00DB2E7E /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		6DCF399A2BA83B5A00DB2E7E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6DCF399C2BA83DC100DB2E7E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +147,8 @@
 				6D6D65932BA6DD28002D30C2 /* View Models */,
 				6D6D65972BA6DD50002D30C2 /* Models */,
 				6D6D659B2BA6E2FA002D30C2 /* Views */,
+				6DCF399E2BA83DC500DB2E7E /* Extensions */,
+				6DB8C7C32BA8AFE400E4A7DC /* Data */,
 				6D6D65662BA6D8CA002D30C2 /* Main.storyboard */,
 				6D6D65692BA6D8CC002D30C2 /* Assets.xcassets */,
 				6D6D656B2BA6D8CC002D30C2 /* LaunchScreen.storyboard */,
@@ -160,6 +180,8 @@
 				6D6D65942BA6DD3E002D30C2 /* ActivityViewModel.swift */,
 				6D6D659C2BA6E406002D30C2 /* CountryViewModel.swift */,
 				6D6D659F2BA6E48A002D30C2 /* ContinentViewModel.swift */,
+				6DB8C7BE2BA8711600E4A7DC /* WorldViewModel.swift */,
+				6DCF39962BA83A9A00DB2E7E /* MapViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -170,6 +192,8 @@
 				6D6D65902BA6DBF0002D30C2 /* Activity.swift */,
 				6D6D65A22BA6E565002D30C2 /* Country.swift */,
 				6D6D65A52BA6E56D002D30C2 /* Continent.swift */,
+				6DB8C7BC2BA8710200E4A7DC /* World.swift */,
+				6DCF39982BA83B0F00DB2E7E /* Map.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,8 +203,26 @@
 			children = (
 				6D6D65982BA6E2F2002D30C2 /* ActivityView.swift */,
 				6D6D65A82BA6E623002D30C2 /* CountryView.swift */,
+				6DCF399A2BA83B5A00DB2E7E /* MapView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6DB8C7C32BA8AFE400E4A7DC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6DB8C7C02BA8AFD900E4A7DC /* country_plot_data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6DCF399E2BA83DC500DB2E7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF399C2BA83DC100DB2E7E /* UIView.swift */,
+				6DB8C7C42BA8B9B600E4A7DC /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +241,8 @@
 			dependencies = (
 			);
 			name = "Bucket List";
+			packageProductDependencies = (
+			);
 			productName = "Bucket List";
 			productReference = 6D6D655D2BA6D8CA002D30C2 /* Bucket List.app */;
 			productType = "com.apple.product-type.application";
@@ -271,6 +315,8 @@
 				Base,
 			);
 			mainGroup = 6D6D65542BA6D8CA002D30C2;
+			packageReferences = (
+			);
 			productRefGroup = 6D6D655E2BA6D8CA002D30C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -288,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D6D656A2BA6D8CC002D30C2 /* Assets.xcassets in Resources */,
+				6DB8C7C12BA8AFD900E4A7DC /* country_plot_data.json in Resources */,
 				6D6D656D2BA6D8CC002D30C2 /* Base in Resources */,
 				6D6D65682BA6D8CA002D30C2 /* Base in Resources */,
 			);
@@ -297,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB8C7C22BA8AFDA00E4A7DC /* country_plot_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,15 +363,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D6D659D2BA6E406002D30C2 /* CountryViewModel.swift in Sources */,
+				6DCF39972BA83A9A00DB2E7E /* MapViewModel.swift in Sources */,
+				6DCF39992BA83B0F00DB2E7E /* Map.swift in Sources */,
 				6D6D65A32BA6E565002D30C2 /* Country.swift in Sources */,
 				6D6D65A02BA6E48A002D30C2 /* ContinentViewModel.swift in Sources */,
 				6D6D65952BA6DD3E002D30C2 /* ActivityViewModel.swift in Sources */,
 				6D6D65652BA6D8CA002D30C2 /* ViewController.swift in Sources */,
+				6DCF399B2BA83B5A00DB2E7E /* MapView.swift in Sources */,
 				6D6D65612BA6D8CA002D30C2 /* AppDelegate.swift in Sources */,
 				6D6D65A62BA6E56D002D30C2 /* Continent.swift in Sources */,
+				6DCF399D2BA83DC100DB2E7E /* UIView.swift in Sources */,
 				6D6D65912BA6DBF0002D30C2 /* Activity.swift in Sources */,
+				6DB8C7C52BA8B9B600E4A7DC /* String.swift in Sources */,
+				6DB8C7BF2BA8711600E4A7DC /* WorldViewModel.swift in Sources */,
 				6D6D65632BA6D8CA002D30C2 /* SceneDelegate.swift in Sources */,
 				6D6D65992BA6E2F3002D30C2 /* ActivityView.swift in Sources */,
+				6DB8C7BD2BA8710200E4A7DC /* World.swift in Sources */,
 				6D6D65A92BA6E624002D30C2 /* CountryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +389,7 @@
 			files = (
 				6D6D65A42BA6E565002D30C2 /* Country.swift in Sources */,
 				6D6D65922BA6DBF1002D30C2 /* Activity.swift in Sources */,
+				6DB8C7C62BA8B9B600E4A7DC /* String.swift in Sources */,
 				6D6D659A2BA6E2F3002D30C2 /* ActivityView.swift in Sources */,
 				6D6D65AA2BA6E624002D30C2 /* CountryView.swift in Sources */,
 				6D6D65782BA6D8CD002D30C2 /* Bucket_ListTests.swift in Sources */,
